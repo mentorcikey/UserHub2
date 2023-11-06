@@ -54,7 +54,7 @@ function Home() {
                 setLoading(false);
             }, 3000);
         });
-    }, []);
+    }, [navigate]);
 
     const handleLogOut = () => {
         localStorage.removeItem("dataRegister")
